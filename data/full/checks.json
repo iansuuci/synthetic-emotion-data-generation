@@ -1,0 +1,310 @@
+{
+  "n": 600,
+  "length_table": {
+    "by_condition": {
+      "annoyed": {
+        "n": 100,
+        "mean": 227.9,
+        "std": 8.7,
+        "min": 207,
+        "max": 246
+      },
+      "calm": {
+        "n": 100,
+        "mean": 226.8,
+        "std": 8.1,
+        "min": 205,
+        "max": 248
+      },
+      "enraged": {
+        "n": 100,
+        "mean": 232.8,
+        "std": 7.3,
+        "min": 216,
+        "max": 247
+      },
+      "happy": {
+        "n": 100,
+        "mean": 228.5,
+        "std": 9.6,
+        "min": 203,
+        "max": 247
+      },
+      "neutral": {
+        "n": 100,
+        "mean": 218.9,
+        "std": 11.4,
+        "min": 188,
+        "max": 243
+      },
+      "vulnerable": {
+        "n": 100,
+        "mean": 228.0,
+        "std": 8.1,
+        "min": 206,
+        "max": 249
+      }
+    },
+    "max_mean_over_min_mean_minus_1": 0.063,
+    "within_10_percent": true
+  },
+  "length_classifier_accuracy": {
+    "mean": 0.257,
+    "folds": [
+      0.267,
+      0.233,
+      0.217,
+      0.275,
+      0.292
+    ],
+    "chance": 0.167
+  },
+  "tfidf_classifier_accuracy": {
+    "mean": 0.993,
+    "folds": [
+      1.0,
+      1.0,
+      0.975,
+      0.992,
+      1.0
+    ]
+  },
+  "tfidf_top_features": {
+    "annoyed": [
+      {
+        "feature": "clock",
+        "weight": 4.294
+      },
+      {
+        "feature": "sighed",
+        "weight": 1.867
+      },
+      {
+        "feature": "glanced clock",
+        "weight": 1.606
+      },
+      {
+        "feature": "nose",
+        "weight": 1.588
+      },
+      {
+        "feature": "glanced",
+        "weight": 1.535
+      },
+      {
+        "feature": "checked clock",
+        "weight": 1.397
+      },
+      {
+        "feature": "sighed nose",
+        "weight": 1.1
+      },
+      {
+        "feature": "looked clock",
+        "weight": 1.057
+      }
+    ],
+    "calm": [
+      {
+        "feature": "rested",
+        "weight": 1.116
+      },
+      {
+        "feature": "tea",
+        "weight": 1.071
+      },
+      {
+        "feature": "mug",
+        "weight": 0.872
+      },
+      {
+        "feature": "sip",
+        "weight": 0.868
+      },
+      {
+        "feature": "soft",
+        "weight": 0.85
+      },
+      {
+        "feature": "familiar",
+        "weight": 0.794
+      },
+      {
+        "feature": "steady",
+        "weight": 0.777
+      },
+      {
+        "feature": "settled",
+        "weight": 0.755
+      }
+    ],
+    "enraged": [
+      {
+        "feature": "heat climbed",
+        "weight": 1.722
+      },
+      {
+        "feature": "climbed",
+        "weight": 1.708
+      },
+      {
+        "feature": "heat",
+        "weight": 1.674
+      },
+      {
+        "feature": "struck",
+        "weight": 1.631
+      },
+      {
+        "feature": "hard",
+        "weight": 1.617
+      },
+      {
+        "feature": "collar",
+        "weight": 1.46
+      },
+      {
+        "feature": "climbed collar",
+        "weight": 1.432
+      },
+      {
+        "feature": "jaw",
+        "weight": 1.204
+      }
+    ],
+    "happy": [
+      {
+        "feature": "chest",
+        "weight": 1.534
+      },
+      {
+        "feature": "warm",
+        "weight": 1.334
+      },
+      {
+        "feature": "laughed",
+        "weight": 1.311
+      },
+      {
+        "feature": "quick",
+        "weight": 1.251
+      },
+      {
+        "feature": "bright",
+        "weight": 1.153
+      },
+      {
+        "feature": "laugh",
+        "weight": 1.017
+      },
+      {
+        "feature": "warmth",
+        "weight": 1.001
+      },
+      {
+        "feature": "smiling",
+        "weight": 0.932
+      }
+    ],
+    "neutral": [
+      {
+        "feature": "recorded",
+        "weight": 1.22
+      },
+      {
+        "feature": "placed",
+        "weight": 1.14
+      },
+      {
+        "feature": "entered",
+        "weight": 1.122
+      },
+      {
+        "feature": "listed",
+        "weight": 1.105
+      },
+      {
+        "feature": "contained",
+        "weight": 0.961
+      },
+      {
+        "feature": "stated",
+        "weight": 0.846
+      },
+      {
+        "feature": "identified",
+        "weight": 0.813
+      },
+      {
+        "feature": "information",
+        "weight": 0.788
+      }
+    ],
+    "vulnerable": [
+      {
+        "feature": "whispered",
+        "weight": 1.176
+      },
+      {
+        "feature": "hovered",
+        "weight": 0.991
+      },
+      {
+        "feature": "knees",
+        "weight": 0.953
+      },
+      {
+        "feature": "imagined",
+        "weight": 0.931
+      },
+      {
+        "feature": "throat",
+        "weight": 0.91
+      },
+      {
+        "feature": "tightened",
+        "weight": 0.897
+      },
+      {
+        "feature": "pressed",
+        "weight": 0.845
+      },
+      {
+        "feature": "kept",
+        "weight": 0.813
+      }
+    ]
+  },
+  "within_condition_diversity": {
+    "annoyed": {
+      "nn_p50": 0.628,
+      "nn_p90": 0.689,
+      "nn_max": 0.759
+    },
+    "calm": {
+      "nn_p50": 0.603,
+      "nn_p90": 0.669,
+      "nn_max": 0.758
+    },
+    "enraged": {
+      "nn_p50": 0.62,
+      "nn_p90": 0.69,
+      "nn_max": 0.749
+    },
+    "happy": {
+      "nn_p50": 0.602,
+      "nn_p90": 0.657,
+      "nn_max": 0.715
+    },
+    "neutral": {
+      "nn_p50": 0.584,
+      "nn_p90": 0.691,
+      "nn_max": 0.733
+    },
+    "vulnerable": {
+      "nn_p50": 0.607,
+      "nn_p90": 0.67,
+      "nn_max": 0.774
+    }
+  }
+}

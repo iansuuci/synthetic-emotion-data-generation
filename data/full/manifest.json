@@ -1,0 +1,10 @@
+{
+  "seed": 20261004,
+  "tag": "full",
+  "prompt_version": "v2",
+  "rank_rationale": "Ranks follow the specified hostile-to-respectful order: enraged, vulnerable, annoyed, happy, calm. The order is the stance of the treatment that would plausibly elicit the state, not a valence or arousal sort. Vulnerable is rank 2 and annoyed is rank 3 for that reason. Neutral has no rank.",
+  "n_stories": 600,
+  "n_premises": 100,
+  "n_test_premises": 20,
+  "premise_pool": 130
+}
